@@ -1,0 +1,49 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+.background{
+    width: 100%;
+    height: 100vh;
+}
+
+.bird{
+    width: 200px;
+    position: absolute;
+    left: 45%;
+    top: 40%;
+   
+}
+.ground{
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    top: 87%;
+    left: 0%;
+    /* animation-name: animation;
+    animation-duration: 4s; */
+
+}
+
+.logo{
+    position: absolute;
+    left: 47%;
+    top: 10%;
+    height: 45px;
+}
+
+/* @keyframes animation {
+    from{
+        left: 0%;
+    }
+    to{
+        left: 5%;
+    }
+} */
